@@ -1,4 +1,6 @@
-# listagem-teste
+# Listagem em ReactJS
+
+Projeto desenvolvido em React Consumindo uma API e renderizando os dados em uma lista. 
 
 ## Run
 
