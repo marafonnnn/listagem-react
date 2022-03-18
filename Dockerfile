@@ -1,13 +1,14 @@
-FROM node:alpine
+FROM node:16-alpine
 
-WORKDIR /
+ENV PATH /app/node_modules/.bin:$PATH
 
-COPY . .
+WORKDIR /app
 
-EXPOSE 8080
+COPY ./ /app
 
-RUN npm run build
+COPY package.json /app/package.json
 
-RUN npm install -g serve
+RUN npm install
 
-CMD ["serve", "-s", "build", "-l", "8080"]
+CMD ["npm", "start"]
+
