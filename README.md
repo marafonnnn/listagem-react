@@ -30,4 +30,4 @@ A aplicação estará disponível na porta 3001, exemplo:
 * Axios - [Documentação](https://axios-http.com/docs/intro)
 * Jest (testes com mock do axios na chamada da API) - [Documentação](https://jestjs.io/pt-BR/)
 
-A arquitetura está organizada em componentes, com seu Index e styles.css em cada componente.
+
