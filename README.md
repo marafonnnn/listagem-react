@@ -29,5 +29,6 @@ A aplicação estará disponível na porta 3001, exemplo:
 * React-loading - [Documentação](https://www.npmjs.com/package/react-loading)
 * Axios - [Documentação](https://axios-http.com/docs/intro)
 * Jest (testes com mock do axios na chamada da API) - [Documentação](https://jestjs.io/pt-BR/)
+* Bootstrap - [Documentação](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
 
 
